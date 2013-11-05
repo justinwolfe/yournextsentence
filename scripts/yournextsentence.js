@@ -67,8 +67,8 @@ function addEventListeners(){
 		var parameter = classList[1]
 		if (weights[category].remaining <= 95){
 			if (weights[category][parameter] >= 5){
-				weights[category][parameter] = weights[category][parameter] - 5;
-				weights[category].remaining = weights[category].remaining + 5;
+				weights[category][parameter] -= 5;
+				weights[category].remaining += 5;
 			};
 		} else {
 		};
@@ -80,8 +80,8 @@ function addEventListeners(){
 		var parameter = classList[1]
 		if (weights[category].remaining >= 5){
 			if (weights[category][parameter] <= 95){
-				weights[category][parameter] = weights[category][parameter] + 5;
-				weights[category].remaining = weights[category].remaining - 5;
+				weights[category][parameter] += 5;
+				weights[category].remaining -= 5;
 			};
 		} else {
 		};
