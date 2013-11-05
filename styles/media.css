@@ -1,0 +1,449 @@
+/* Smartphones (portrait) */
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px)
+and (orientation : portrait) {
+/* Styles */
+	#menuContainerInner{
+		width: 90%;
+	}
+	#title{
+		font-size: 2em;
+	}
+	.boxOuter{
+		font-size: 1.75em;
+	}
+	.transition{
+		font-size: 1.25em;
+	}
+	#settingsIcon{
+		font-size: 4.5em;
+		position: fixed;
+		bottom: -10%;
+		right: 3%;
+	}
+	#menuContainerInner{
+		font-size: 1em;
+	}
+	#aboutMenu {
+		font-size: 1.2em;
+	}
+	#aboutButton {
+		font-size: 1.2em;
+	}
+	#settingsMenu{
+		font-size: .9em;
+	}
+}
+
+/* Smartphones (landscape) ----------- */
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px)
+and (orientation : landscape) {
+/* Styles */
+	#menuContainerInner{
+		width: 80%;
+	}
+	#title{
+		font-size: 2em;
+	}
+	.boxOuter{
+		font-size: 1.4em;
+	}
+	.transition{
+		font-size: 1.1em;
+	}
+	#settingsIcon{
+		font-size: 4.5em;
+		position: fixed;
+		bottom: -10%;
+		right: 3%;
+	}
+	#menuContainerInner{
+		font-size: 1em;
+	}
+	#aboutMenu {
+		font-size: 1.2em;
+	}
+	#aboutButton {
+		font-size: 1.2em;
+	}
+}
+
+/* iphone 4 home screen web app portrait */
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px)
+and (height: 480px)
+and (orientation : portrait) {
+/* Styles */
+	#menuContainerInner{
+		width: 80%;
+	}
+	#title{
+		font-size: 2em;
+	}
+	.boxOuter{
+		font-size: 1.75em;
+	}
+	.transition{
+		font-size: 1.25em;
+	}
+	#settingsIcon{
+		font-size: 4.5em;
+		position: fixed;
+		bottom: -7%;
+		right: 3%;
+	}
+	#menuContainerInner{
+		font-size: 1em;
+	}
+	#aboutMenu {
+		font-size: 1.2em;
+	}
+	#aboutButton {
+		font-size: 1.2em;
+	}
+	#leftDoes{
+	float: none;
+	margin: 0;
+	width: 100%;
+	}
+	#rightDoes{
+	float: none;
+	margin: 0;
+	width: 100%;
+	}
+	#leftContains{
+	float: none;
+	margin: 0;
+	width: 100%;
+	}
+	#rightContains{
+	float: none;
+	margin: 0;
+	width: 100%;
+	}
+	#settingsMenu{
+	font-size: 1.1em;
+	}
+}
+
+/* iphone 4 home screen web app landscape */
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px)
+and (height: 320px)
+and (orientation : landscape) {
+/* Styles */
+	#menuContainerInner{
+		width: 80%;
+	}
+	#title{
+		font-size: 2em;
+	}
+	.boxOuter{
+		font-size: 1.5em;
+	}
+	.transition{
+		font-size: 1.1em;
+	}
+	#settingsIcon{
+		font-size: 4.5em;
+		position: fixed;
+		bottom: -10%;
+		right: 3%;
+	}
+	#menuContainerInner{
+		font-size: 1em;
+	}
+	#aboutMenu {
+		font-size: 1.2em;
+	}
+	#aboutButton {
+		font-size: 1.2em;
+	}
+	#settingsMenu{
+		font-size: 1.2em;
+	}
+}
+
+/* iPhone 5 retina (portrait)*/
+@media (device-height : 568px) 
+   and (device-width : 320px) 
+   /*and (-webkit-min-device-pixel-ratio: 2)*/
+   and (orientation : portrait) {
+/* Styles */
+	#menuContainerInner{
+		width: 90%;
+	}
+	#title{
+		font-size: 2em;
+	}
+	.boxOuter{
+		font-size: 1.75em;
+	}
+	.transition{
+		font-size: 1.25em;
+	}
+	#settingsIcon{
+		font-size: 4.5em;
+		position: fixed;
+		bottom: -7%;
+		right: 3%;
+	}
+	#menuContainerInner{
+		font-size: 1em;
+	}
+	#aboutMenu {
+		font-size: 1.3em;
+	}
+	#aboutButton {
+		font-size: 1.2em;
+	}
+	#settingsMenu{
+		font-size: .9em;
+	}
+	#leftDoes{
+	float: none;
+	margin: 0;
+	width: 100%;
+	}
+	#rightDoes{
+	float: none;
+	margin: 0;
+	width: 100%;
+	}
+	#leftContains{
+	float: none;
+	margin: 0;
+	width: 100%;
+	}
+	#rightContains{
+	float: none;
+	margin: 0;
+	width: 100%;
+	}
+	#settingsMenu{
+	font-size: 1.1em;
+	}
+}
+
+/* iPhone 5 retina (landscape)*/
+@media (device-height : 568px) 
+   and (device-width : 320px) 
+   /*and (-webkit-min-device-pixel-ratio: 2)*/
+   and (orientation : portrait) {
+/* Styles */
+	#aboutMenu {
+		font-size: 1.3em;
+	}
+	#aboutButton {
+		font-size: 1.5em;
+	}
+}
+
+/* iPhone 5 retina home screen web app (portrait)*/
+@media (device-height : 568px) 
+   and (device-width : 320px) 
+   and (height: 568px)
+   /*and (-webkit-min-device-pixel-ratio: 2)*/
+   and (orientation : portrait) {
+/* Styles */
+	#menuContainerInner{
+		width: 90%;
+	}
+	#settingsIcon{
+		font-size: 4.5em;
+		position: fixed;
+		bottom: -5%;
+		right: 3%;
+	}
+	#menuContainerInner{
+		font-size: 1em;
+	}
+	#aboutMenu {
+		font-size: 1.3em;
+	}
+	#aboutButton {
+		font-size: 1.5em;
+	}
+	#leftDoes{
+	float: none;
+	margin: 0;
+	width: 100%;
+	}
+	#rightDoes{
+	float: none;
+	margin: 0;
+	width: 100%;
+	}
+	#leftContains{
+	float: none;
+	margin: 0;
+	width: 100%;
+	}
+	#rightContains{
+	float: none;
+	margin: 0;
+	width: 100%;
+	}
+	#settingsMenu{
+	font-size: 1.2em;
+	}
+}
+
+/* iPhone 5 retina home screen web app (landscape)*/
+@media (device-height : 568px) 
+   and (device-width : 320px) 
+   and (height: 320px)
+   /*and (-webkit-min-device-pixel-ratio: 2)*/
+   and (orientation : portrait) {
+/* Styles */
+	#aboutMenu {
+		font-size: 1.3em;
+	}
+	#aboutButton {
+		font-size: 1.5em;
+	}
+}
+
+/* iPads (portrait) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px)
+and (orientation: portrait) {
+/* Styles */
+	#menuContainerInner{
+		width: 80%;
+	}
+	#title{
+		font-size: 4.5em;
+	}
+	.boxOuter{
+		font-size: 3.5em;
+	}
+	.transition{
+		font-size: 3em;
+	}
+	#settingsIcon{
+		font-size: 4.5em;
+		position: fixed;
+		bottom: 0%;
+		right: 3%;
+	}
+	#menuContainerInner{
+		font-size: 2em;
+	}
+	#aboutMenu {
+		font-size: 1.2em;
+	}
+	#aboutButton {
+		font-size: 1.2em;
+	}
+}
+
+/* iPads (landscape) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : landscape) {
+/* Styles */
+	#menuContainerInner{
+		width: 80%;
+	}
+	#title{
+		font-size: 4.5em;
+	}
+	.boxOuter{
+		font-size: 3.5em;
+	}
+	.transition{
+		font-size: 3em;
+	}
+	#settingsIcon{
+		font-size: 4.5em;
+		position: fixed;
+		bottom: 0%;
+		right: 3%;
+	}
+	#menuContainerInner{
+		font-size: 2em;
+	}
+	#aboutMenu {
+		font-size: 1.2em;
+	}
+	#aboutButton {
+		font-size: 1.2em;
+	}
+}
+
+/* Smaller screens ----------- */
+@media only screen 
+and (min-width : 1024px)
+and (max-width : 1048px) {
+/* Styles */
+	#menuContainerInner{
+		width: 40%;
+	}
+	#title{
+		font-size: 4.5em;
+	}
+	.boxOuter{
+		font-size: 2.5em;
+	}
+	.transition{
+		font-size: 3em;
+	}
+	#settingsIcon{
+		font-size: 4.5em;
+		position: fixed;
+		bottom: 0%;
+		right: 3%;
+	}
+	#menuContainerInner{
+		font-size: 1.2em;
+		border: 1px solid black;
+	}
+	#aboutMenu {
+		font-size: 1.2em;
+	}
+	#aboutButton {
+		font-size: 1.2em;
+	}
+}
+
+
+/* Large screens ----------- */
+@media only screen 
+and (min-width : 1600px) {
+/* Styles */
+	#menuContainerInner{
+		width: 40%;
+	}
+	#title{
+		font-size: 4.5em;
+	}
+	.boxOuter{
+		font-size: 3.5em;
+	}
+	.transition{
+		font-size: 3em;
+	}
+	#settingsIcon{
+		font-size: 4.5em;
+		position: fixed;
+		bottom: 0%;
+		right: 3%;
+	}
+	#menuContainerInner{
+		font-size: 2em;
+	}
+	#aboutMenu {
+		font-size: 1.2em;
+	}
+	#aboutButton {
+		font-size: 1.2em;
+	}
+}

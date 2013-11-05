@@ -1,0 +1,11 @@
+CACHE MANIFEST
+
+# Cache manifest version 0.2
+
+scripts/jquery-1.10.2.min.js
+index.html
+yournextsentence.css
+media.css
+sentences.js
+yournextsentence.js
+icon.png

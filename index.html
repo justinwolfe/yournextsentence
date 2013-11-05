@@ -1,0 +1,91 @@
+ <!DOCTYPE HTML>
+ <html manifest="cache.manifest">                                                          
+ <head>
+ <meta name="apple-mobile-web-app-capable" content="yes"> 
+ <meta name="viewport" content="width=device-width, user-scalable=no, maximum-scale=1, minimum-scale=1" />
+ <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+ <script src="scripts/jquery-1.10.2.min.js" type="text/javascript"></script>
+ <script src="scripts/sentences.js" type="text/javascript"></script> 
+ <script src="scripts/yournextsentence.js" type="text/javascript"></script> 
+ <link type="text/css" rel="stylesheet" href="styles/yournextsentence.css"/>
+ <link type="text/css" rel="stylesheet" href="styles/media.css"/>
+ <link rel="apple-touch-icon" href="icon.png" />
+ <title>next</title>
+ </head>   
+ <body>
+ <div id="mainContainer">
+	<div id="title">your next sentence</div>
+	<div id="menuContainerOuter">
+		<div id="menuContainerInner">
+			<div id="menuBar"><span id="aboutButton">?</span></div>
+			<div id="aboutMenu">
+				<div id="about"><b>hit</b> a wall in your story or novel? <b>click</b> 'your next sentence' to get guidelines designed to help you keep writing. <b>click</b> it again for more. <b>adjust</b> settings to tailor suggestions to your story. <b>optimized</b> to be an iOS7 home screen app.</div>
+				<div id="by"><b>made by </b><a href="mailto:justin.wolfe@gmail.com">justin wolfe</a></div>
+			</div>
+			<div id="mainMenu">
+				<div id="style"><span id="back"> < </span><span id="menuLabel">1. does</span><span id="forward"> > </span></div>
+					<div id="settingsMenu">
+						<div id="doesMenu">
+							<div id="leftDoes">
+								<div id="continuity"><span class="does continuity subtract"><</span><span class="continuity counter">00</span><span class="does continuity add">></span><span class="label"> continuity</span></div>
+								<div id="addition"><span class="does addition subtract"><</span><span class="addition counter">00</span><span class="does addition add">></span><span class="label"> addition</span></div>
+								<div id="repetition"><span class="does repetition subtract"><</span><span class="repetition counter">00</span><span class="does repetition add">></span><span class="label"> repetition</span></div>
+								<div id="digression"><span class="does digression subtract"><</span><span class="digression counter">00</span><span class="does digression add">></span><span class="label"> digression</span></div>
+								<div id="focus"><span class="does focus subtract"><</span><span class="focus counter">00</span><span class="does focus add">></span><span class="label"> focus</span></div>
+							</div>
+							<div id="rightDoes">
+								<div id="character"><span class="does character subtract"><</span><span class="character counter">00</span><span class="does character add">></span><span class="label"> character</span></div>
+								<div id="plot"><span class="does plot subtract"><</span><span class="plot counter">00</span><span class="does plot add">></span><span class="label"> plot</span></div>
+								<div id="tone"><span class="does tone subtract"><</span><span class="tone counter">00</span><span class="does tone add">></span><span class="label"> tone</span></div>
+								<div id="voice"><span class="does voice subtract"><</span><span class="voice counter">00</span><span class="does voice add">></span><span class="label"> voice</span></div>
+								<div id="form"><span class="does form subtract"><</span><span class="form counter">00</span><span class="does form add">></span><span class="label"> form</span></div>
+							</div>
+							<div id="remainingPoints"><i>remaining points:</i> <span class="does remaining"></span></div>
+						</div>
+						<div id="containsMenu">
+							<div id="leftContains">
+								<div id="visual"><span class="contains visual subtract"><</span><span class="visual counter">00</span><span class="contains visual add">></span><span class="label"> visual</span></div>
+								<div id="sensory"><span class="contains sensory subtract"><</span><span class="sensory counter">00</span><span class="contains sensory add">></span><span class="label"> sensory</span></div>
+								<div id="colors"><span class="contains colors subtract"><</span><span class="colors counter">00</span><span class="contains colors add">></span><span class="label"> colors</span></div>
+								<div id="things"><span class="contains things subtract"><</span><span class="things counter">00</span><span class="contains things add">></span><span class="label"> things</span></div>
+								<div id="kinetic"><span class="contains kinetic subtract"><</span><span class="kinetic counter">00</span><span class="contains kinetic add">></span><span class="label"> kinetic</span></div>
+							</div>
+							<div id="rightContains">
+								<div id="sonic"><span class="contains sonic subtract"><</span><span class="sonic counter">00</span><span class="contains sonic add">></span><span class="label"> sonic</span></div>
+								<div id="figurative"><span class="contains figurative subtract"><</span><span class="figurative counter">00</span><span class="contains figurative add">></span><span class="label"> figurative</span></div>
+								<div id="referential"><span class="contains referential subtract"><</span><span class="referential counter">00</span><span class="contains referential add">></span><span class="label"> referential</span></div>
+								<div id="allusive"><span class="contains allusive subtract"><</span><span class="allusive counter">00</span><span class="contains allusive add">></span><span class="label"> allusive</span></div>
+								<div id="interior"><span class="contains interior subtract"><</span><span class="interior counter">00</span><span class="contains interior add">></span><span class="label"> interior</span></div>
+							</div>
+							<div id="remainingPoints"><i>remaining points:</i> <span class="contains remaining"></span></div>
+						</div>
+						<div id="isMenu">
+							<div id="fragment"><span class="is fragment subtract"><</span><span class="fragment counter">00</span><span class="is fragment add">></span><span class="label"> fragment</span></div>
+							<div id="simple"><span class="is simple subtract"><</span><span class="simple counter">00</span><span class="is simple add">></span><span class="label"> simple</span></div>
+							<div id="compound"><span class="is compound subtract"><</span><span class="compound counter">00</span><span class="is compound add">></span><span class="label"> complex</span></div>
+							<div id="complex"><span class="is complex subtract"><</span><span class="complex counter">00</span><span class="is complex add">></span><span class="label"> compound</span></div>
+							<div id="compoundcomplex"><span class="is compoundcomplex subtract"><</span><span class="compoundcomplex counter">00</span><span class="is compoundcomplex add">></span><span class="label"> compound/complex</span></div>
+							<div id="remainingPoints"><i>remaining points:</i> <span class="is remaining"></span></div>
+						</div>
+					</div>
+			</div>
+		</div>
+	</div>
+	<div id="metaContainer">
+		<div id="should" class="transition">should</div>
+		<div id="doesOuter" class="boxOuter">
+			<span id="doesInner" class="boxInner">does</span>
+		</div>
+		<div id="contain" class="transition">contain</div>
+		<div id="containsOuter" class="boxOuter">
+			<span id="containsInner" class="boxInner">contains</span>
+		</div>
+		<div id="is" class="transition">and be</div>
+		<div id="isOuter" class="boxOuter">
+			<span id="isInner" class="boxInner">is</span>
+		</div>
+	</div>
+	<div id="settingsIcon">*</div>
+ </div>
+ </body>
+ </html>
