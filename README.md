@@ -1,4 +1,4 @@
-your next sentence
+<a href="http://www.somedrafts.com/yournextsentence">your next sentence</a>
 ================
 
 
